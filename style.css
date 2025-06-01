@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+main,
+footer {
+    background-color: bisque;
+}
+
+.section-presentacion {
+    display: flex;
+    /*eje x*/
+    justify-content: center;
+    /*eje y*/
+    align-items: center;
+}
+
+
+.puestos {
+    padding-left: 23%;
+
+}
+
+
+
 .foto-perfil img {
     border-radius: 50%;
 }
