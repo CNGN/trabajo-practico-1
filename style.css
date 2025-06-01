@@ -41,3 +41,33 @@ footer {
     align-items: center;
 
 }
+
+.section-certificacion-formacion {
+    background-color: burlywood;
+    padding: 20px;
+}
+
+
+.imagenes-certificados {
+    padding: 20px;
+    background-color: aquamarine;
+    /*el contenedor "section-certificacion-formacion" 
+    se va a comportar como una grilla*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+.bloque {
+    background-color: #cdf9ffab;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cert {
+    width: 500px;
+}
