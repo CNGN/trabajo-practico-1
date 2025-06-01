@@ -33,3 +33,11 @@ footer {
     color: blue;
     background-color: rgba(245, 245, 220, 0.89);
 }
+
+.section-educacion {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
