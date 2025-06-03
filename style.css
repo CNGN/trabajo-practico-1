@@ -79,3 +79,15 @@ footer {
     align-items: center;
 
 }
+
+.section-contacto {
+    background-color: rgba(240, 226, 182, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub-bloque-contacto {
+    padding-left: 20px;
+}
