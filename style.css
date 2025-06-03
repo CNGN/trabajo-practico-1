@@ -71,3 +71,11 @@ footer {
 .cert {
     width: 500px;
 }
+
+.section-skills {
+    background-color: rgba(255, 166, 0, 0.281);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
