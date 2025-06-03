@@ -96,6 +96,8 @@ responsible disign*/
     padding-left: 20px;
 }
 
+
+
 @media (max-width: 480px) {
     .nombre {
         padding-left: 100px;
@@ -115,13 +117,27 @@ responsible disign*/
         padding-left: 80px;
     }
 
+    .section-certificacion-formacion {
+        background-color: burlywood;
+        padding: 10px;
+    }
+
     .imagenes-certificados {
-        padding: 20px;
+        padding: 0px;
+        background-color: aquamarine;
         /*el contenedor "section-certificacion-formacion" 
         se va a comportar como una grilla*/
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 20px;
+        gap: 10px;
+    }
+
+    .bloque {
+        width: 300px;
+        background-color: #cdf9ffab;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .cert {
@@ -129,8 +145,34 @@ responsible disign*/
     }
 }
 
+
+
 @media (max-width: 880px) {
+
+    .section-certificacion-formacion {
+        background-color: burlywood;
+        padding: 10px;
+    }
+
+    .imagenes-certificados {
+        padding: 10px;
+        background-color: aquamarine;
+        /*el contenedor "section-certificacion-formacion" 
+        se va a comportar como una grilla*/
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+    }
+
+    .bloque {
+        width: 300px;
+        background-color: #cdf9ffab;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .cert {
-        width: 600px;
+        width: 300px;
     }
 }
