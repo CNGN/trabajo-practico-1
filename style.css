@@ -3,8 +3,7 @@
     padding: 0;
 }
 
-main,
-footer {
+main {
     background-color: bisque;
 }
 
@@ -16,10 +15,15 @@ footer {
     align-items: center;
 }
 
+/* para colocar nombre y apallido en una sola linea.
+tuve que dividir en elementos html para hacer 
+responsible disign*/
+.name h1 {
+    display: inline-block;
+}
 
 .puestos {
     padding-left: 23%;
-
 }
 
 
@@ -90,4 +94,43 @@ footer {
 
 .sub-bloque-contacto {
     padding-left: 20px;
+}
+
+@media (max-width: 480px) {
+    .nombre {
+        padding-left: 100px;
+    }
+
+    .apellido {
+        padding-left: 100px;
+    }
+
+    .foto-perfil img {
+        width: 350px;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .puestos {
+        padding-left: 80px;
+    }
+
+    .imagenes-certificados {
+        padding: 20px;
+        /*el contenedor "section-certificacion-formacion" 
+        se va a comportar como una grilla*/
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+    }
+
+    .cert {
+        width: 300px;
+    }
+}
+
+@media (max-width: 880px) {
+    .cert {
+        width: 600px;
+    }
 }
