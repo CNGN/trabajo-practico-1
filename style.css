@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+.fixed-top {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+
 
 .hero {
     background-color: #e4e2dd;
